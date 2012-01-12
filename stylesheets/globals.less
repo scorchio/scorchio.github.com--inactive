@@ -101,6 +101,9 @@
 	}
 	ol { list-style: decimal; }
 	ol, ul.square, ul.circle, ul.disc { margin-left: 30px; }
+	ul.square { list-style: square outside; }
+	ul.circle { list-style: circle outside; }
+	ul.disc { list-style: disc outside; }
 	li { margin-bottom: 12px; }
 	ul.large li { line-height: 21px; }
 	
@@ -156,5 +159,8 @@
   @highlight-color: #ff0;
 	.left       { float: left; }
 	.right      { float: right; }
+	.text-left   { text-align: left; }
+ 	.text-right  { text-align: right; }
+ 	.text-center { text-align: center; }	
 	.hide     	{ display: none; }
 	.highlight 	{ background: @highlight-color; }
