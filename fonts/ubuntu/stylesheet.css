@@ -1,0 +1,121 @@
+@font-face {
+    font-family: 'Ubuntu';
+    src: url('ubuntu-r-webfont.eot');
+    src: url('ubuntu-r-webfont.eot?#iefix') format('embedded-opentype'),
+         url('ubuntu-r-webfont.woff') format('woff'),
+         url('ubuntu-r-webfont.ttf') format('truetype'),
+         url('ubuntu-r-webfont.svg#UbuntuRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Ubuntu';
+    src: url('ubuntu-ri-webfont.eot');
+    src: url('ubuntu-ri-webfont.eot?#iefix') format('embedded-opentype'),
+         url('ubuntu-ri-webfont.woff') format('woff'),
+         url('ubuntu-ri-webfont.ttf') format('truetype'),
+         url('ubuntu-ri-webfont.svg#UbuntuItalic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'UbuntuMedium';
+    src: url('ubuntu-m-webfont.eot');
+    src: url('ubuntu-m-webfont.eot?#iefix') format('embedded-opentype'),
+         url('ubuntu-m-webfont.woff') format('woff'),
+         url('ubuntu-m-webfont.ttf') format('truetype'),
+         url('ubuntu-m-webfont.svg#UbuntuMedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'UbuntuMediumItalic';
+    src: url('ubuntu-mi-webfont.eot');
+    src: url('ubuntu-mi-webfont.eot?#iefix') format('embedded-opentype'),
+         url('ubuntu-mi-webfont.woff') format('woff'),
+         url('ubuntu-mi-webfont.ttf') format('truetype'),
+         url('ubuntu-mi-webfont.svg#UbuntuMediumItalic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'UbuntuCondensed';
+    src: url('ubuntu-c-webfont.eot');
+    src: url('ubuntu-c-webfont.eot?#iefix') format('embedded-opentype'),
+         url('ubuntu-c-webfont.woff') format('woff'),
+         url('ubuntu-c-webfont.ttf') format('truetype'),
+         url('ubuntu-c-webfont.svg#UbuntuCondensedRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'UbuntuLight';
+    src: url('ubuntu-l-webfont.eot');
+    src: url('ubuntu-l-webfont.eot?#iefix') format('embedded-opentype'),
+         url('ubuntu-l-webfont.woff') format('woff'),
+         url('ubuntu-l-webfont.ttf') format('truetype'),
+         url('ubuntu-l-webfont.svg#UbuntuLight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'UbuntuLightItalic';
+    src: url('ubuntu-li-webfont.eot');
+    src: url('ubuntu-li-webfont.eot?#iefix') format('embedded-opentype'),
+         url('ubuntu-li-webfont.woff') format('woff'),
+         url('ubuntu-li-webfont.ttf') format('truetype'),
+         url('ubuntu-li-webfont.svg#UbuntuLightItalic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'UbuntuMono';
+    src: url('ubuntumono-r-webfont.eot');
+    src: url('ubuntumono-r-webfont.eot?#iefix') format('embedded-opentype'),
+         url('ubuntumono-r-webfont.woff') format('woff'),
+         url('ubuntumono-r-webfont.ttf') format('truetype'),
+         url('ubuntumono-r-webfont.svg#UbuntuMonoRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'UbuntuMono';
+    src: url('ubuntumono-ri-webfont.eot');
+    src: url('ubuntumono-ri-webfont.eot?#iefix') format('embedded-opentype'),
+         url('ubuntumono-ri-webfont.woff') format('woff'),
+         url('ubuntumono-ri-webfont.ttf') format('truetype'),
+         url('ubuntumono-ri-webfont.svg#UbuntuMonoItalic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'UbuntuMono';
+    src: url('ubuntumono-b-webfont.eot');
+    src: url('ubuntumono-b-webfont.eot?#iefix') format('embedded-opentype'),
+         url('ubuntumono-b-webfont.woff') format('woff'),
+         url('ubuntumono-b-webfont.ttf') format('truetype'),
+         url('ubuntumono-b-webfont.svg#UbuntuMonoBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'UbuntuMono';
+    src: url('ubuntumono-bi-webfont.eot');
+    src: url('ubuntumono-bi-webfont.eot?#iefix') format('embedded-opentype'),
+         url('ubuntumono-bi-webfont.woff') format('woff'),
+         url('ubuntumono-bi-webfont.ttf') format('truetype'),
+         url('ubuntumono-bi-webfont.svg#UbuntuMonoBoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+}
+

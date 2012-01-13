@@ -1,0 +1,160 @@
+/* Artfully Masterminded by ZURB */
+
+/* -------------------------------------------------- 
+    Table of Contents
+-----------------------------------------------------
+:: Reset & Standards
+:: Links
+:: Lists
+:: Tables
+:: Misc
+*/
+
+
+/*	--------------------------------------------------
+	:: Global Reset & Standards
+	-------------------------------------------------- */
+	
+	/* 
+		Eric Meyer's CSS Reset
+		http://meyerweb.com/eric/tools/css/reset/ 
+		v2.0 | 20110126
+   		License: none (public domain)
+	*/
+	
+	html, body, div, span, applet, object, iframe,
+	h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+	a, abbr, acronym, address, big, cite, code,
+	del, dfn, em, img, ins, kbd, q, s, samp,
+	small, strike, strong, sub, sup, tt, var,
+	b, u, i, center,
+	dl, dt, dd, ol, ul, li,
+	fieldset, form, label, legend,
+	table, caption, tbody, tfoot, thead, tr, th, td,
+	article, aside, canvas, details, embed, 
+	figure, figcaption, footer, header, hgroup, 
+	menu, nav, output, ruby, section, summary,
+	time, mark, audio, video {
+		margin: 0;
+		padding: 0;
+		border: 0;
+		font: inherit;
+		vertical-align: baseline;
+	}
+	html {
+		font-size: 62.5%; 
+	}
+	/* HTML5 display-role reset for older browsers */
+	article, aside, details, figcaption, figure, 
+	footer, header, hgroup, menu, nav, section {
+		display: block;
+	}
+	body {
+		line-height: 1;
+	}
+	ol, ul {
+		list-style: none;
+	}
+	blockquote, q {
+		quotes: none;
+	}
+	blockquote:before, blockquote:after,
+	q:before, q:after {
+		content: '';
+		content: none;
+	}
+	table {
+		border-collapse: collapse;
+		border-spacing: 0;
+	}
+	
+	
+	
+	body { background: #fff; font-family: "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, "Lucida Grande", sans-serif; font-size: 13px; line-height: 18px; color: #555; position: relative; -webkit-font-smoothing: antialiased; }
+	
+
+
+/*	--------------------------------------------------
+	:: Links
+	-------------------------------------------------- */
+  @link-color: #2a85e8;
+  @link-hover-color: #11639d;
+  @link-focus-color: #cc4714;
+
+	a {
+   color: @link-color; text-decoration: none; line-height: inherit;
+   &:hover { color: @link-hover-color; }
+   &:focus { color: @link-focus-color; outline: none; }
+	}
+	p a, p a:visited { line-height: inherit; }
+	
+
+/*	--------------------------------------------------
+	:: Lists
+	-------------------------------------------------- */
+	ul, ol { margin-bottom: 18px; }
+	ul {
+	  list-style: none outside;
+	  .square { list-style: square outside; }
+	  .circle { list-style: circle outside; }
+    .disc { list-style: disc outside; }
+	}
+	ol { list-style: decimal; }
+	ol, ul.square, ul.circle, ul.disc { margin-left: 30px; }
+	li { margin-bottom: 12px; }
+	ul.large li { line-height: 21px; }
+	
+
+/*	--------------------------------------------------
+	:: Tables
+	-------------------------------------------------- */
+  @table-background: #fff;
+  @table-even-rows-background: #f9f9f9;
+  @table-border-radius: 3px;
+  @table-border: 1px solid #ddd;
+  @table-td-color: #333;
+  @table-head-foot-background: #f5f5f5;
+
+  table {
+	 .td () { font-size: 12px; line-height: 18px; text-align: left; }
+	 .header-cells () { padding: 8px 10px 9px; font-size: 14px; font-weight: bold; color: #222; }
+
+    background: @table-background;
+    -moz-border-radius: @table-border-radius;
+    -webkit-border-radius: @table-border-radius;
+    border-radius: @table-border-radius; margin: 0 0 18px;
+    border: @table-border;
+
+    thead, tfoot {
+      background: @table-head-foot-background;
+
+      tr, th { .td; }
+    }
+    
+    tbody tr td,
+    tr td,
+    tfoot tr td { .td; }
+
+    thead tr th,
+    tfoot tr td {
+      .header-cells;
+      &:first-child { border-left: none; }
+      &:last-child { border-right: none; }
+    }
+
+    tbody tr {
+      &.even, &.alt { background: @table-even-rows-background; }
+      &:nth-child(even) { background: @table-even-rows-background; }
+      
+      td { color: @table-td-color; padding: 9px 10px; vertical-align: top; border: none; }
+    }
+  }
+
+/* --------------------------------------------------
+	:: Misc
+---------------------------------------------------*/
+  @highlight-color: #ff0;
+	.left       { float: left; }
+	.right      { float: right; }
+	.hide     	{ display: none; }
+	.highlight 	{ background: @highlight-color; }
