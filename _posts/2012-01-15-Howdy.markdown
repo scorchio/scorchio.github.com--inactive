@@ -1,0 +1,26 @@
+---
+layout: post
+title: Howdy!
+---
+Hey, nice to see you on my page!
+
+As you can see, I'm starting a new blog. This is about my opensource, public work. I wanted to start this page to be able to give back more to the community. In the past, I've maintained a [blog in Hungarian](http://scorchio.freeblog.hu), but after a recent failure at [Freeblog.hu](http://www.freeblog.hu) (which caused massive data loss for almost everyone) I've decided to change my old blogging habits.
+
+So this site is (of course) on [GitHub](http://github.com) and it's running [Jekyll](http://jekyllrb.com). I should take my time saying thanks for Simon Pascal Klein for his excellent [summary on Jekyll](http://klepas.org/jekyll-a-static-site-generator). You should check out his site anyway - it has beautiful typography!
+
+This little site is rather bare at the moment. Don't fret; I will be adding new content and some light design as I advance in blogging here more.
+
+The tools I currently use for building this site - just for entertaining you a little more:
+
+- *JetBrains PhpStorm*
+
+  Okay, this site isn't running Drupal or WordPress or anything like that. Still, PhpStorm has decent support for Markdown and LESS and Javascript etc. and it's my primary IDE, so there's no reason for changing it for this little project :)
+
+- *Foundation framework with LESS*
+
+  Nowadays I play around with LESS and Foundation a lot. I'm working on LESSifying Foundation and improving it with some bits and pieces from elsewhere, for example with m6tt's HelpLess library.
+
+- *Typography-related jQuery plugins: FitText and Lettering*
+- *(just for experimenting a bit) Noisy.js, a noise-generator jQuery plugin.*
+
+  This one is quite a bit silly. I mean, it generates a background noise texture in Javascript and passes it with base64 encoding directly in the HTML? For my little experiment it's okay, but I don't think this is a good idea in general; page-to-page caching is nowhere for example, not to mention that it's regenerated on every page load.

@@ -90,4 +90,16 @@ $(document).ready(function () {
 	/* DISABLED BUTTONS ------------- */
 	/* Gives elements with a class of 'disabled' a return: false; */
 
+
+  $("#header-title").fitText(0.58);
+  $("header.row .subtitle").fitText(1.45);
+  $("#header-title").lettering();
+  $("body").noisy({
+      'intensity' : 0.517,
+      'size' : '400',
+      'opacity' : 0.042,
+      'fallback' : '',
+      'monochrome' : false
+  });
+
 });

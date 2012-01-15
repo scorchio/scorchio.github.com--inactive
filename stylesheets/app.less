@@ -26,6 +26,69 @@ header.row {
   }
 }
 
+@body-bg: #F6EFE8;
 body {
   font-family: 'Ubuntu', inherit;
+  background-color: @body-bg;
+  font-size: 16px;
+  font-size: 1.6rem;
+  p { line-height: 1.5; }
 }
+
+#wrap { background-color: lighten(@body-bg, 4%); }
+
+// padding a hátterek miatt
+#wrap { padding-left: 2.5%; padding-right: 2.5%; width: 95%; }
+
+h3#header-title {
+  display: block;
+  width: 100%;
+  .char1 { font-size: 1.35em; position: relative; top: 0.125em; } // S
+  .char2 { margin-left: -0.02em; } // c
+  .char4 { margin-left: -0.04em; } // r
+  .char5 { margin-left: -0.03em; } // c
+  .char7 { margin-left: -0.06em; } // i
+  .char8 { margin-left: -0.03em; } // o
+  .char9 { margin-left: -0.05em; } // '
+  .char10 { margin-left: -0.07em; } // s
+  .char13 { margin-left: -0.04em; } // l
+  .char14 { margin-left: -0.01em; } // o
+}
+
+// padding nem árt felülre-alulra
+body { padding-top: 20px; padding-bottom: 20px; }
+footer { padding-bottom: 20px; }
+// egy kis kerekítés és árnyék
+#wrap {
+  #hl.rounded-corners(4px, 4px, 4px, 4px);
+  #hl.drop-shadow(1px, 1px, 10px, desaturate(darken(@body-bg, 12%), 30%));
+}
+// fancy subheader-pozíció
+header.row .subtitle {
+  margin-top: -1.25em;
+  margin-left: 1.5em;
+}
+// date méret
+.date { font-size: 12px; font-size: 1.2rem; }
+// date padding
+.date { margin-top: 0.5rem; margin-bottom: 2rem; }
+
+// footer méret
+footer { font-size: 14px; font-size: 1.4rem; }
+
+// fejléc betűszínek
+@main-header-lighten: 30%;
+@sub-header-lighten: 45%;
+header {
+  h3 { color: lighten(#000, @main-header-lighten); }
+  h4 { color: lighten(#000, @sub-header-lighten); }
+}
+
+// fejléc szöveg árnyékolása?
+header {
+  h3, h4 { #hl.text-shadow(1px, 2px, 1px, fadeout(#666, 50%)); }
+}
+
+// bulleted list
+ul { list-style: disc outside; }
+ul li { margin-left: 30px; }
