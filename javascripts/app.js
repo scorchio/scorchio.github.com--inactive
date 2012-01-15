@@ -93,13 +93,7 @@ $(document).ready(function () {
 
   $("#header-title").fitText(0.58);
   $("header.row .subtitle").fitText(1.45);
+  $("article h1").fitText(1.75);
   $("#header-title").lettering();
-  $("body").noisy({
-      'intensity' : 0.517,
-      'size' : '400',
-      'opacity' : 0.042,
-      'fallback' : '',
-      'monochrome' : false
-  });
 
 });

@@ -1,10 +1,12 @@
 ---
 layout: post
 title: Howdy!
+permalink: /2012/01/15/Howdy
+date: 2012-01-15 01:00
 ---
 Hey, nice to see you on my page!
 
-As you can see, I'm starting a new blog. This is about my opensource, public work. I wanted to start this page to be able to give back more to the community. In the past, I've maintained a [blog in Hungarian](http://scorchio.freeblog.hu), but after a recent failure at [Freeblog.hu](http://www.freeblog.hu) (which caused massive data loss for almost everyone) I've decided to change my old blogging habits.
+As you can see, I'm starting a new blog. This is about my public development work. I wanted to start this page to be able to give back more to the community, telling everyone about the projects that I recently use and about those I work on. In the past, I've maintained a [blog in Hungarian](http://scorchio.freeblog.hu), but after a recent failure at [Freeblog.hu](http://www.freeblog.hu) (which caused massive data loss for almost everyone) I've decided to change my old blogging habits.
 
 So this site is (of course) on [GitHub](http://github.com) and it's running [Jekyll](http://jekyllrb.com). I should take my time saying thanks for Simon Pascal Klein for his excellent [summary on Jekyll](http://klepas.org/jekyll-a-static-site-generator). You should check out his site anyway - it has beautiful typography!
 
@@ -24,3 +26,5 @@ The tools I currently use for building this site - just for entertaining you a l
 - *(just for experimenting a bit) Noisy.js, a noise-generator jQuery plugin.*
 
   This one is quite a bit silly. I mean, it generates a background noise texture in Javascript and passes it with base64 encoding directly in the HTML? For my little experiment it's okay, but I don't think this is a good idea in general; page-to-page caching is nowhere for example, not to mention that it's regenerated on every page load.
+
+  *\[edit: I've replaced it with a .png. Cleaner solution, isn't it?\]*

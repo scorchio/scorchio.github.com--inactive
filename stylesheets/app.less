@@ -27,15 +27,18 @@ header.row {
 }
 
 @body-bg: #F6EFE8;
+@wrap-bg: lighten(@body-bg, 4%);
 body {
   font-family: 'Ubuntu', inherit;
   background-color: @body-bg;
+  background-image: url("../images/bgnoise.png");
+  background-repeat: repeat;
   font-size: 16px;
   font-size: 1.6rem;
   p { line-height: 1.5; }
 }
 
-#wrap { background-color: lighten(@body-bg, 4%); }
+#wrap { background-color: @wrap-bg; }
 
 // padding a hátterek miatt
 #wrap { padding-left: 2.5%; padding-right: 2.5%; width: 95%; }
@@ -89,6 +92,38 @@ header {
   h3, h4 { #hl.text-shadow(1px, 2px, 1px, fadeout(#666, 50%)); }
 }
 
+// nem kell ennyi padding a fejléc címsornak
+header.row { padding-top: 0; }
+
 // bulleted list
 ul { list-style: disc outside; }
 ul li { margin-left: 30px; }
+
+// article h1 for FitText
+article h1 {
+  display: block;
+  width: 100%;
+  font-size: 14px;
+  font-size: 1.4rem;
+}
+
+// article h1 color
+@article-header-lighten: 20%;
+article h1 {
+  color: lighten(#000, @article-header-lighten);
+}
+
+// page nav space
+.page-nav-top { padding-top: 1em; padding-bottom: 1em;}
+// page nav size
+.page-nav-top { font-size: 12px; font-size: 1.2rem; }
+
+// profile pic shadow and rotation
+#profile-pic {
+  #hl.drop-shadow(2px, 2px, 4px, darken(@wrap-bg, 30%));
+  #hl.rotate(2deg);
+}
+// tilt profile pic in the other direction on mobile
+@media only screen and (max-width: 767px) {
+  #profile-pic { #hl.rotate(-2deg); }
+}

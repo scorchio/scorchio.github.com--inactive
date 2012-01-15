@@ -29,26 +29,39 @@
 	<!-- container -->
 	<div class="container">
     <div id="wrap" class="row">
-      <header class="row">
+      <div class="row">
         <div class="eight columns">
-          <h3 id="header-title">Scorchio's blog</h3>
-          <h4 class="subtitle">A small step (at least), every day.</h3>
-        </div>
-      </header>
+          <header class="row">
+            <h3 id="header-title">Scorchio's blog</h3>
+            <h4 class="subtitle">A small step (at least), every day.</h4>
+          </header>
 
-      <div class="row content">
-        <div class="eight columns">
-         {{ content }}
+          <div class="row content">
+            {{ content }}
+          </div>
         </div>
+
+        <div class="four columns">
+          <!-- for sidebar -->
+          <div class="push-six six phone-one columns">
+            <img id="profile-pic" src="/images/profile.jpg" alt="Me, Scor" />
+          </div>
+          <div class="twelve phone-three columns">
+            <div class="panel">
+              {% capture about %}{% include about.markdown %}{% endcapture %}
+              {{ about | markdownify }}
+            </div>
+          </div>
+        </div>
+        <footer class="row">
+          <hr />
+          <em>Scorchio is Zoltán Adamek.</em>
+        </footer>
       </div>
 
-      <footer class="row">
-        <div class="twelve columns">
-            <hr />
-            <em>Scorchio is Zoltán Adamek.</em>
-        </div>
-      </footer>
     </div>
+
+
 	</div>
 	<!-- container -->
 
@@ -63,7 +76,6 @@
 	<script src="/javascripts/jquery.placeholder.min.js"></script>
   <script src="/javascripts/jquery.fittext.js"></script>
   <script src="/javascripts/jquery.lettering.js"></script>
-  <script src="/javascripts/jquery.noisy.min.js"></script>
 	<!-- End Combine and Compress These JS Files -->
 	<script src="/javascripts/app.js"></script>
   <script type="text/javascript">
@@ -77,19 +89,19 @@
           (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
       })();
   </script>
-	<script type="text/javascript">
+  <script type="text/javascript">
 
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-28197818-1']);
-  _gaq.push(['_trackPageview']);
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-28371277-1']);
+    _gaq.push(['_trackPageview']);
 
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
 
-</script>
+  </script>
 
 </body>
 </html>
