@@ -127,3 +127,23 @@ article h1 {
 @media only screen and (max-width: 767px) {
   #profile-pic { #hl.rotate(-2deg); }
 }
+// code tag, prettier way
+code {
+  font-family: 'UbuntuMono';
+  background-color: desaturate(darken(@wrap-bg, 10%), 10%);
+  padding-left: 0.25em;
+  padding-right: 0.25em;
+}
+
+
+.page-nav-item a { display: block; }
+.page-nav-item a[rel~="next"] { text-align: right; }
+
+p, ul, ol {
+  font-size: 15px;
+  font-size: 1.5rem;
+}
+
+li {
+  margin-bottom: 0.5em;
+}

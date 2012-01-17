@@ -4,16 +4,20 @@ title: Scorchio's blog
 ---
 {% for post in site.posts limit:1 %}
   <div id="container">
-    <div class="page-nav-top">
+    <div class="page-nav-top row">
       {% if post.previous %}
-        <span class="page-nav-item">
+        <span class="page-nav-item six columns">
           <a rel="prev" href="{{ post.previous.url }}/"
               title="View {{ post.previous.title }}"
           >&larr; View previous article</a>
         </span>
+      {% else %}
+        <span class="page-nav-item six columns">
+            <a href="/" title="Front page">This was the first post, click to jump to the front page.</a>
+          </span>
       {% endif %}
       {% if post.next %}
-        <span class="page-nav-item">
+        <span class="page-nav-item six columns">
           <a rel="next" href="{{ post.next.url }}/"
               title="View {{ post.next.title }}"
           >View next article &rarr;</a>

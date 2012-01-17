@@ -20,4 +20,4 @@ layout: base
       {% endfor %}
     </ul>
   </div> <!-- /.index -->
-</div> <!-- /#container.archives -->
+</div>
