@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Howdy!
-permalink: /2012/01/15/Howdy
+permalink: /2012/01/15/howdy
 date: 2012-01-15 01:00
 ---
 Hey, nice to see you on my page!
