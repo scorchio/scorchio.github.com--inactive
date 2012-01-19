@@ -159,6 +159,6 @@ Open Graph tags are not really meant to use on a page which contains a bunch of 
 
 > It is currently designed for Web pages representing profiles of real-world things — things like movies, sports teams, celebrities, and restaurants.
 
-For articles, it's okay; videos too, etc., but what about a front page? What should be the main image associated with a site's front page in the Open Graph philosophy? How should fall back to basic site informations if we don't have different content types? What should we do with a page which contains a random number of different content? In my opinion, the picture above - with Meta tags and Drupal 7 - shows how it should be done - can you spot any weakness there?
+For articles, it's okay; videos too, etc., but what about a front page? What should be the main image associated with a site's front page in the Open Graph philosophy? How should fall back to basic site informations if we don't have different content types? What should we do with a page which contains a random number of different content? In my opinion, the picture above - with Meta tags and Drupal 7 - shows how it should be done. Can you spot any weakness there?
 
 Share your ideas, let's start a discussion!
