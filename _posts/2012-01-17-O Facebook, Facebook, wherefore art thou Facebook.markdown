@@ -134,11 +134,20 @@ As far as I can understand the way Facebook works at the moment, this could be t
 
 Check [this article about how to implement Open Graph tags in a theme](http://www.wpbeginner.com/wp-themes/how-to-add-facebook-open-graph-meta-data-in-wordpress-themes/). It doesn't try to implement the single page/article case as I suggested, however it has almost everything which could make it possible to implement.
 
-###...and the Drupal way
+###...and the Drupal 6 way
 
 I'm happy to say that as far as it seems we have well-thought Drupal module just for this: [Open Graph meta tags](http://drupal.org/project/opengraph_meta). As the project page tells us:
   
 > This module makes it easy to select the image thumbnail used to represent the node (used by Facebook when constructing a preview). The editor is shown a list of thumbnails of all images   associated with the node (both as fields as well as images embedded within the node's body   content).
+
+####Edit:
+
+*I've just played a little bit with Nodewords. As the main solution for adding meta tags for a Drupal site, it has support for Open Graph tags, too - very nice addition to have.*
+
+###Edit - what about Drupal 7?
+
+Oh WOW! The Nodewords module was completely rewritten for Drupal 7, it's called [Meta tags](http://drupal.org/project/metatag) and supports all Open Graph tags in a really elegant, nice way... Just check out this beauty:
+<img src="http://drupal.org/files/images/Meta%20tags%20%7C%20Drupal%207%20test%20site.preview.png" alt="Drupal 7 with Meta Tags module" />
 
 So that's all for today, folks. This misery really tired me out, but I have high hopes that some noble Facebook knights will come to our rescue... If you have any additional information, please share with me in the comments, I would love to know more about this!
 
