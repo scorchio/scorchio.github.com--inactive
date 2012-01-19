@@ -149,7 +149,7 @@ I'm happy to say that as far as it seems we have well-thought Drupal module just
 Oh WOW! The Nodewords module was completely rewritten for Drupal 7, it's called [Meta tags](http://drupal.org/project/metatag) and supports all Open Graph tags in a really elegant, nice way... Just check out this beauty:
 <img src="http://drupal.org/files/images/Meta%20tags%20%7C%20Drupal%207%20test%20site.preview.png" alt="Drupal 7 with Meta Tags module" />
 
-So that's all for today, folks. This misery really tired me out, but I have high hopes that some noble Facebook knights will come to our rescue... If you have any additional information, please share with me in the comments, I would love to know more about this!
+So that's all for today, folks. This misery really tired me out, but still, I've learned a lot. If you have any additional information, please share with me in the comments, I would love to know more about this!
 
 ####P.S. Solution == Un-solution?
 
@@ -159,6 +159,6 @@ Open Graph tags are not really meant to use on a page which contains a bunch of 
 
 > It is currently designed for Web pages representing profiles of real-world things — things like movies, sports teams, celebrities, and restaurants.
 
-For articles, it's okay; videos too, etc., but what about a front page? What should be the main image associated with a site's front page in the Open Graph philosophy? How should fall back to basic site informations if we don't have different content types? What should we do with a page which contains a random number of different content? 
+For articles, it's okay; videos too, etc., but what about a front page? What should be the main image associated with a site's front page in the Open Graph philosophy? How should fall back to basic site informations if we don't have different content types? What should we do with a page which contains a random number of different content? In my opinion, the picture above - with Meta tags and Drupal 7 - shows how it should be done - can you spot any weakness there?
 
 Share your ideas, let's start a discussion!
